@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#121212;
+    color:white;
+}
+
+.app{
+    display:flex;
+    height:90vh;
+}
+
+/* Sidebar */
+.sidebar{
+    width:220px;
+    background:#000;
+    padding:20px;
+}
+
+/* Content */
+.content{
+    flex:1;
+    padding:30px;
+}
+
+.song{
+    display:flex;
+    align-items:center;
+    margin:15px 0;
+    cursor:pointer;
+}
+
+.song img{
+    width:60px;
+    height:60px;
+    margin-right:15px;
+}
+
+/* Player Bottom */
+.player-bar{
+    height:10vh;
+    background:#181818;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+}
+
+.player-bar img{
+    width:60px;
+    height:60px;
+    margin-right:15px;
+}
+#search{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>	musik</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+</div>
+
+    
+
+<div class="app">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>🎧 My Music</h2>
+        <p>Home</p>
+        <p>Playlist</p>
+        <p>Favorite</p>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <h1>Music</h1>
+
+        <div class="song" onclick="playMusic(0)">
+            <img src="cover.jpg">
+            <span>When I Was Your Man</span>
+        </div>
+
+        <div class="song" onclick="playMusic(1)">
+            <img src="cover3.jpg">
+            <span>Somebody Pleasure</span>
+        </div>
+
+        <div class="song" onclick="playMusic(2)">
+            <img src="cover1.jpg">
+            <span>Phonk</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- Player Bottom -->
+<div class="player-bar">
+    <img id="cover" src="cover1.jpg">
+    <div>
+        <p id="title">Pilih Lagu</p>
+        <audio id="audio" controls></audio>
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
