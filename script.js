@@ -43,26 +43,3 @@ function playMusic(index){
     });
 }
 
-window.addEventListener("load", () => {
-  const splash = document.getElementById("splash");
-
-  setTimeout(() => {
-    splash.classList.add("fade-out");
-  }, 2500); // logo tampil
-
-  setTimeout(() => {
-    splash.style.display = "none";
-  }, 3500); // benar-benar hilang
-});
-
-window.addEventListener("load", () => {
-  const splash = document.getElementById("splash");
-
-  setTimeout(() => {
-    splash.classList.add("fade-out");
-  }, 3500);
-
-  setTimeout(() => {
-    splash.style.display = "none";
-  }, 4500);
-});
