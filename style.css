@@ -4,38 +4,6 @@ body{
     background:#121212;
     color:white;
 }
-login-box {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  width: 300px;
-}
-
-input {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  background: blue;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background: darkblue;
-}
-
-#message {
-  text-align: center;
-}
-
 
 .app{
     display:flex;
