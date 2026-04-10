@@ -42,18 +42,3 @@ function playMusic(index){
         }
     });
 }
-function login() {
-  const user = document.getElementById("username").value;
-  const pass = document.getElementById("password").value;
-
-  // Validasi sederhana
-  if (user === "admin" && pass === "12345") {
-    document.getElementById("message").innerText = "Login berhasil!";
-    document.getElementById("message").style.color = "green";
-  } else {
-    document.getElementById("message").innerText = "Username atau password salah!";
-    document.getElementById("message").style.color = "red";
-  }
-}
-
-
